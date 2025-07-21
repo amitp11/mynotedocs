@@ -18,6 +18,7 @@ function App() {
       <div className="center-container">
         <TodoInput addList={addList}/>
         <h1 className="app-heading">MYNOTEDOCS</h1>
+        <a href="searchapp.zip" download>Click here to download</a>
         <hr/>
         {listTodo.map((listItem,i)=>{
           return (
